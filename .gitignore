@@ -178,4 +178,5 @@ dist
 
 .cache/
 .cache/*
+.cache/**/*.*
 svg/

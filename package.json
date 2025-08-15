@@ -1,0 +1,22 @@
+{
+  "name": "material-icons-importer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "node export-files.mjs",
+    "convert": "node svg-to-png.mjs",
+    "static-server": "http-server --base-dir ./png -p 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.3",
+  "dependencies": {
+    "@iconify/tools": "^4.1.2",
+    "@iconify/utils": "^3.0.1",
+    "http-server": "^14.1.1",
+    "sharp": "^0.34.3"
+  }
+}
